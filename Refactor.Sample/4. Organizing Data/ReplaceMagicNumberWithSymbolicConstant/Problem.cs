@@ -2,9 +2,11 @@ namespace Refactor.Sample.Organizing_Data.ReplaceMagicNumberWithSymbolicConstant
 {
     public class Problem
     {
+        private const double GRAVITATINAL_FORCE = 9.81;
+
         double PotentialEnergy(double mass, double height)
         {
-            return mass * height * 9.81;
+            return mass * height * GRAVITATINAL_FORCE;
         }
     }
 }

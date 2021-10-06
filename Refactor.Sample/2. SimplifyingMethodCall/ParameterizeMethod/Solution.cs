@@ -4,7 +4,7 @@ namespace Refactor.Sample.SimplifyingMethodCall.ParameterizeMethod
     {
         public double Raised(double percentage)
         {
-            return 10 * percentage / 100;
+            return 10 * (percentage / 100);
         }
 
     }

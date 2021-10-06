@@ -50,7 +50,7 @@ namespace Refactor.WebApi.Controllers
             _logger.LogInformation("Validate Identity");
 
             var validator = ValidatorFactory.Create(model.CountryCode, model.DocumentType);
-            _logger.LogInformation(validator.GetType().Name);
+            _logger.LogInformation(validator?.GetType()?.Name);
             if (validator is null)
                 return BadRequest("The CountryCode or DocumentType provided could not be found, please recheck and try again");
 

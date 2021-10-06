@@ -18,7 +18,7 @@ namespace Refactor.Sample.ComposingMethods.SplitTemporaryVariable
 }
 
 // Problem
-// You have a local variable that’s used to store various intermediate values inside a method (except for cycle variables).
+// You have a local variable that’s used to store various intermediate values inside a method.
 
 // Solution
 // Use different variables for different values. Each variable should be responsible for only one particular thing.
