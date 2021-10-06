@@ -1,0 +1,7 @@
+namespace Refactor.WebApi.Models
+{
+    public class NIRAVerificationResponseModel
+    {
+        
+    }
+}
