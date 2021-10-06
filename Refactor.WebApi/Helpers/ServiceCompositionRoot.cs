@@ -7,7 +7,6 @@ namespace Refactor.WebApi.Helpers
     public static class ServiceCompositionRoot
     {
         private static IServiceCollection _services;
-        private static IServiceCollection _serviceDescriptors;
 
         public static void Set(IServiceCollection services)
         {
